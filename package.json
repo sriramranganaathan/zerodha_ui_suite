@@ -4,11 +4,15 @@
   "description": "auto cdsl",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run": "cypress run"
   },
   "author": "sriram ranganathan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.6.0"
+    "cypress": "^13.6.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "totp-generator": "^0.0.14"
   }
 }
